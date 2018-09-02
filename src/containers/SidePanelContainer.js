@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../components/Header.js';
+import Description from '../components/Description.js';
+import Footer from '../components/Footer.js';
 
 class SidePanelContainer extends React.Component {
   constructor(props) {
@@ -10,8 +12,10 @@ class SidePanelContainer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="side-panel-wrapper">
         <Header />
+        <Description />
+        <Footer />
       </div>
     );
   }
