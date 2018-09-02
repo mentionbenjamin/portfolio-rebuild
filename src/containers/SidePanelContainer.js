@@ -2,6 +2,16 @@ import React from 'react';
 import Header from '../components/Header.js';
 import Description from '../components/Description.js';
 import Footer from '../components/Footer.js';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+// projects
+import ProjectPreviewNav from "../components/ProjectPreviewNav.js";
+import Eventfull from "../components/projects/Eventfull.js";
+import Home from "../components/projects/Home.js";
+import Plumtree from "../components/projects/Plumtree.js";
+import TrackYoself from "../components/projects/TrackYoself.js";
+import Frogging from "../components/projects/Frogging.js";
+import Chapeltown from "../components/projects/Chapeltown.js";
+
 
 class SidePanelContainer extends React.Component {
   constructor(props) {
@@ -12,15 +22,29 @@ class SidePanelContainer extends React.Component {
 
   render() {
     return (
-      <div className="side-panel-wrapper">
-        <Header />
-        <Description />
-        <Footer />
+      <div>
+        <div className="side-panel-wrapper">
+          <Header />
+          <Description />
+          <Footer />
+        </div>
+
+        <div className="project-preview-wrapper">
+          <Router>
+            <React.Fragment>
+              <ProjectPreviewNav />
+              <Route exact path="/" component={Home} />
+              <Route path="/eventfull" component={Eventfull} />
+              <Route path="/plumtree" component={Plumtree} />
+              <Route path="/trackyoself" component={TrackYoself} />
+              <Route path="/frogging" component={Frogging} />
+              <Route path="/chapeltown" component={Chapeltown} />
+            </React.Fragment>
+          </Router>
+        </div>
       </div>
     );
   }
 }
-
-
 
 export default SidePanelContainer;
