@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
 import SidePanelContainer from './containers/SidePanelContainer.js'
 
 class App extends Component {
