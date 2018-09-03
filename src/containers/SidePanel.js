@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header.js';
+import Caption from '../components/Caption.js';
 import Description from '../components/Description.js';
 import Footer from '../components/Footer.js';
 
@@ -15,9 +16,10 @@ class SidePanel extends React.Component {
     return (
       <div>
         <div className="side-panel-wrapper">
-          <Header      text={this.props.header} />
-          <Description text={this.props.description}/>
-          <Footer      text={this.props.footer}/>
+          <Header      text={this.props.header}      />
+          <Caption     text={this.props.caption}     />
+          <Description text={this.props.description} />
+          <Footer      text={this.props.footer}      />
         </div>
       </div>
     );
