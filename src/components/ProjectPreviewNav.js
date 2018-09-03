@@ -2,26 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectPreviewNav = () => (
-  <ul>
-    <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/eventfull">Eventfull</Link>
-    </li>
-    <li>
-      <Link to="/plumtree">Plumtree</Link>
-    </li>
-    <li>
-      <Link to="/trackyoself">TrackYoself</Link>
-    </li>
-    <li>
-      <Link to="/frogging">Frogging</Link>
-    </li>
-    <li>
-      <Link to="/chapeltown">Chapeltown</Link>
-    </li>
-  </ul>
+
+  <div>
+    <Link to="/">Home</Link>
+    <br></br>
+    <Link to="/eventfull">Eventfull</Link>
+    <br></br>
+    <Link to="/plumtree">Plumtree</Link>
+    <br></br>
+
+    <Link to="/trackyoself">TrackYoself</Link>
+    <br></br>
+
+    <Link to="/frogging">Frogging</Link>
+    <br></br>
+
+    <Link to="/chapeltown">Chapeltown</Link>
+  </div>
 )
 
 

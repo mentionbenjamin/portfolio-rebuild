@@ -19,7 +19,9 @@ const Chapeltown = () => (
 
                   The experimental design of the leaflet invited the public to get involved in the festival in a crafty, whimsical way. Using an A5 layout and a single colour format kept costs low and allowed the option of using different coloured paper to print on; as a way of connecting with the diverse area of Chapeltown.
                   "
-      footer="mentionbenjamin"
+           footer="
+                  mentionbenjamin
+                  "
     />
     <ProjectPreviewNav />
 

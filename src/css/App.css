@@ -1,0 +1,24 @@
+.page-container {
+  min-width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.side-panel-container,
+.project-preview-container {
+  padding: 1em;
+  margin: 0 2px 2px 0;
+  background: #b3e888;
+}
+.side-panel-container {
+  flex: 1;
+  max-width: 200px;
+}
+.project-preview-container {
+  flex: 2;
+}
+/* Responsive: */
+@media only screen and (min-width: 640px) {
+  .layout {
+    display: flex;
+  }
+}

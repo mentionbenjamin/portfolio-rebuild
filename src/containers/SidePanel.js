@@ -15,12 +15,10 @@ class SidePanel extends React.Component {
     console.log(this.props)
     return (
       <div>
-        <div className="side-panel-wrapper">
-          <Header      text={this.props.header}      />
-          <Caption     text={this.props.caption}     />
-          <Description text={this.props.description} />
-          <Footer      text={this.props.footer}      />
-        </div>
+        <Header      text={this.props.header}      />
+        <Caption     text={this.props.caption}     />
+        <Description text={this.props.description} />
+        <Footer      text={this.props.footer}      />
       </div>
     );
   }
