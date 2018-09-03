@@ -14,6 +14,8 @@
   max-width: 23em;
   min-height: 100vh;
   position: absolute;
+  left: 0;
+  top: 0;
 }
 .side-panel-header {
   border: 1px solid blue;

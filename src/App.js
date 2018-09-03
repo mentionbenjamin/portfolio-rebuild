@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import Home from './components/projects/Home.js'
+import Routes from './containers/Routes.js'
 
 class App extends Component {
   render() {
     return (
-      <Home />
+      <Routes />
     );
   }
 }

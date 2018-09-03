@@ -4,7 +4,7 @@ const Footer = (props) => {
   return (
     <div className="side-panel-footer">
       <h3>
-        Footer Placeholder
+        {props.text}
       </h3>
     </div>
   );

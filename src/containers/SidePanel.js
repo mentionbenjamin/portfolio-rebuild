@@ -3,7 +3,7 @@ import Header from '../components/Header.js';
 import Description from '../components/Description.js';
 import Footer from '../components/Footer.js';
 
-class SidePanelContainer extends React.Component {
+class SidePanel extends React.Component {
   constructor(props) {
     super(props);
 
@@ -11,17 +11,17 @@ class SidePanelContainer extends React.Component {
   }
 
   render() {
+    console.log(this.props)
     return (
       <div>
         <div className="side-panel-wrapper">
-          {/* <Header text="hi there"/> */}
-          <Header />
-          <Description />
-          <Footer />
+          <Header      text={this.props.header} />
+          <Description text={this.props.description}/>
+          <Footer      text={this.props.footer}/>
         </div>
       </div>
     );
   }
 }
 
-export default SidePanelContainer;
+export default SidePanel;

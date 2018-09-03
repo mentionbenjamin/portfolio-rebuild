@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // projects
+import Home from "../components/projects/Home.js";
 import ProjectPreviewNav from "../components/ProjectPreviewNav.js";
 import Eventfull from "../components/projects/Eventfull.js";
-import Home from "../components/projects/Home.js";
 import Plumtree from "../components/projects/Plumtree.js";
 import TrackYoself from "../components/projects/TrackYoself.js";
 import Frogging from "../components/projects/Frogging.js";
@@ -18,11 +18,9 @@ class Routes extends React.Component {
 
   render() {
     return (
-      <div>
         <div className="project-preview-wrapper">
           <Router>
             <React.Fragment>
-              <ProjectPreviewNav />
               <Route exact path="/" component={Home} />
               <Route path="/eventfull" component={Eventfull} />
               <Route path="/plumtree" component={Plumtree} />
@@ -32,7 +30,6 @@ class Routes extends React.Component {
             </React.Fragment>
           </Router>
         </div>
-      </div>
     );
   }
 }
