@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // projects
 import Home from "../components/projects/Home.js";
-import ProjectPreviewNav from "../components/ProjectPreviewNav.js";
 import Eventfull from "../components/projects/Eventfull.js";
 import Plumtree from "../components/projects/Plumtree.js";
 import TrackYoself from "../components/projects/TrackYoself.js";
@@ -18,7 +17,7 @@ class Routes extends React.Component {
 
   render() {
     return (
-        <div className="project-preview-wrapper">
+        <div>
           <Router>
             <React.Fragment>
               <Route exact path="/" component={Home} />

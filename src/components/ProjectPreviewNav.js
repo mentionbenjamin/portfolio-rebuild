@@ -3,21 +3,27 @@ import { Link } from 'react-router-dom';
 
 const ProjectPreviewNav = () => (
 
-  <div>
-    <Link to="/">Home</Link>
-    <br></br>
-    <Link to="/eventfull">Eventfull</Link>
-    <br></br>
-    <Link to="/plumtree">Plumtree</Link>
-    <br></br>
+  <div className="project-preview-parent">
+    {/* <Link to="/">Home</Link> */}
+    <Link to="/frogging">
+      <img className="frogging-preview" src={require('../images/frogging/squiggle-1.jpg')} />
+    </Link>
 
-    <Link to="/trackyoself">TrackYoself</Link>
-    <br></br>
+    <Link to="/chapeltown">
+      <img className="chapeltown-preview" src={require('../images/chapeltown/BothModels.jpg')} />
+    </Link>
 
-    <Link to="/frogging">Frogging</Link>
-    <br></br>
+    <Link to="/plumtree">
+      <img className="plumtree-preview" src={require('../images/plumtree/plumtree.jpg')} />
+    </Link>
 
-    <Link to="/chapeltown">Chapeltown</Link>
+    <Link to="/eventfull">
+      <img className="eventfull-preview" src={require('../images/eventfull/eventfull.jpg')} />
+    </Link>
+
+    <Link to="/trackyoself">
+      <img className="trackyoself-preview" src={require('../images/trackyoself/trackyoself.jpg')} />
+    </Link>
   </div>
 )
 

@@ -10,7 +10,7 @@
     font-family: MaisonNeueMediumItalic;
     src: url(../fonts/Maison_Neue_Medium_Italic.otf);
 }
-.side-panel-wrapper {
+.side-panel-container {
   border: 1px solid red;
   background-color: #f5f5f5;
   font-size: 1em;
@@ -20,6 +20,7 @@
   position: absolute;
   left: 0;
   top: 0;
+
 }
 .side-panel-header {
   color: #222222;
@@ -51,4 +52,16 @@
   position: absolute;
   font-family: MaisonNeueLight;
   color: #222222;
+}
+
+
+
+.page-container {
+  min-width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.layout {
+  display: flex;
 }

@@ -5,9 +5,6 @@ import SidePanel from "../../containers/SidePanel";
 const Home = () => (
   <div>
 
-    <div className="page-container">
-      <div className="layout">
-
         <div className="side-panel-container">
           <SidePanel
                  header="
@@ -24,14 +21,10 @@ const Home = () => (
           />
         </div>
 
-        <div class="project-preview-container">
-          <ProjectPreviewNav />
-        </div>
+        <ProjectPreviewNav />
 
       </div>
-    </div>
 
-  </div>
 );
 
 export default Home;
