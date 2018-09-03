@@ -12,7 +12,7 @@ const TrackYoself = () => (
                     TrackYoself
                     "
             caption="
-                    Rationalise three graffiti tags as brand or corporate logos.
+                    Spending tracker web application with an animated UI.
                     "
         description="Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
                     appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
@@ -23,7 +23,9 @@ const TrackYoself = () => (
                     Anim pariatur appellat si iis fugiat minim aut
                     eiusmod, dolor pariatur de singulis. Ex officia cohaerescant, duis consectetur
                     probant elit litteris. Excepteur minim nescius laboris quo nescius si veniam."
-        footer="this is the footer"
+             footer="
+                    mentionbenjamin
+                    "
       />
     </div>
 

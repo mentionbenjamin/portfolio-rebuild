@@ -1,11 +1,19 @@
 import React from 'react';
+import '../css/Footer.css';
+
 
 const Footer = (props) => {
   return (
     <div className="side-panel-footer">
-      <h3>
+
+      <div className="footer-mb">
         {props.text}
-      </h3>
+      </div>
+
+      <img className="linkedin-icon" src={require('../images/social-icons/linkedin.svg')} />
+      <img className="github-icon"   src={require('../images/social-icons/github.svg')} />
+      <img className="mail-icon"     src={require('../images/social-icons/mail.svg')} />
+
     </div>
   );
 }

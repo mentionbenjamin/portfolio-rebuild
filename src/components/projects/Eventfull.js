@@ -12,7 +12,9 @@ const Eventfull = () => (
                     Eventfull
                     "
             caption="
-                    Rationalise three graffiti tags as brand or corporate logos.
+                    Single page web application allowing users to search for events by category, date, and location, then view their results on an interactive map.
+
+                    Collaboration with Gregor Cox, James Amos & Iona Macbeth.
                     "
         description="Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
                     appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
@@ -23,7 +25,9 @@ const Eventfull = () => (
                     Anim pariatur appellat si iis fugiat minim aut
                     eiusmod, dolor pariatur de singulis. Ex officia cohaerescant, duis consectetur
                     probant elit litteris. Excepteur minim nescius laboris quo nescius si veniam."
-        footer="this is the footer"
+             footer="
+                    mentionbenjamin
+                    "
       />
     </div>
 
