@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import SidePanelContainer from './containers/SidePanelContainer.js'
+import Home from './components/projects/Home.js'
 
 class App extends Component {
   render() {
     return (
-      <SidePanelContainer />
+      <Home />
     );
   }
 }

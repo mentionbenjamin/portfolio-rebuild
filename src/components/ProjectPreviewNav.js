@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ProjectPreviewNav = () => (
   <ul>
     <li>
-      <Link to="/">HOME</Link>
+      <Link to="/">Home</Link>
     </li>
     <li>
       <Link to="/eventfull">Eventfull</Link>
