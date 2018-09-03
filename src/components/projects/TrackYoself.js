@@ -14,7 +14,11 @@ const TrackYoself = () => (
             caption="
                     Spending tracker web application with an animated UI.
                     "
-        description="Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
+        description="
+                    Time-frame: 6 days
+                    Environment: CodeClan Bootcamp
+                    Tools: Ruby, Sinatra, HTML5, CSS3, pSQL
+                    Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
                     appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
                     vidisse qui aut irure transferrem, aliquip e duis iis aliqua mandaremus
                     excepteur, quo esse relinqueret

@@ -16,7 +16,11 @@ const Eventfull = () => (
 
                     Collaboration with Gregor Cox, James Amos & Iona Macbeth.
                     "
-        description="Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
+        description="
+                    Time-frame: 6 days
+                    Environment: CodeClan Bootcamp
+                    Tools: Javascript, MongoDB, HTML5, CSS3
+                    Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
                     appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
                     vidisse qui aut irure transferrem, aliquip e duis iis aliqua mandaremus
                     excepteur, quo esse relinqueret

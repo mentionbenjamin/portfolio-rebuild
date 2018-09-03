@@ -15,6 +15,9 @@ const Chapeltown = () => (
                     Redesign the publicity material for a week-long festival promoting creativity in Chapeltown.
                     "
         description="
+                    Time-frame: 4 weeks
+                    Environment: University
+                    Tools: Adobe Suite, Canon EOS 800D
                     After piloting in 2014, Chapeltown Arts Festival is back for the third year; making its mark on promoting and encouraging the arts and creativity in the Chapeltown area in north-east Leeds.
                     Being a charity funded organisation they approached our university inviting us to redesign the promotional material for the week-long creative extravaganza.
 

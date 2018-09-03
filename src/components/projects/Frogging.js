@@ -14,6 +14,9 @@ const Frogging = () => (
                     Rationalise three graffiti tags as brand or corporate logos.
                     "
         description="
+                    Time-frame: 2 weeks
+                    Environment: University
+                    Tools: Adobe Suite, Canon EOS 800D
                     As a way to kickstart final year, we had two weeks to interpret three graffiti tags as brand or corporate logos—here is part one of three.
                     Due to the experimental nature of the brief, the aim was to have a bit of fun whilst exploring how to get the public involved in idea generation.
 

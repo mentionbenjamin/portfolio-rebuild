@@ -13,7 +13,11 @@ const Plumtree = () => (
             caption="
                     Personal inventory app to track stock, can categorise, search, move to sold and much more. Collaboration with Gary Muir
                     "
-        description="Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
+        description="
+                    Time-frame: 6 days
+                    Environment: CodeClan Bootcamp
+                    Tools: Java, Hibernate, HTML5, CSS3
+                    Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
                     appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
                     vidisse qui aut irure transferrem, aliquip e duis iis aliqua mandaremus
                     excepteur, quo esse relinqueret
