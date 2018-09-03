@@ -16,7 +16,7 @@ const Home = () => (
                         I am looking for an opportunity in an ambitious, lateral-thinking environment where I can grow and develop. Helping add value by building engaging digital solutions.
                         "
                  footer="
-                        this is the footer
+                        mentionbenjamin
                         "
           />
         </div>

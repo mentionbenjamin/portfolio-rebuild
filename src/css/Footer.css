@@ -1,12 +1,20 @@
 .side-panel-footer {
-  border: 1px solid red;
   margin: 2.5em 0;
   bottom: 0;
-  position: absolute;
 }
 .footer-mb {
   display: inline-block;
   font-size: 0.8em;
   font-family: MaisonNeueLight;
   color: #222222;
+  padding-top: 0.95em;
+}
+.footer-social {
+  display: inline-block;
+  right: 0;
+  float: right;
+  opacity: 0.6;
+}
+.github-icon {
+  padding: 0 1.2em;
 }
