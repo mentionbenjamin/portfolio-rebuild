@@ -16,6 +16,7 @@ const Home = () => (
                   caption={PlumtreeData.caption}
                   details={PlumtreeData.details}
               description={PlumtreeData.description}
+                     link={PlumtreeData.link}
                    footer={PlumtreeData.footer}
         />
       </div>

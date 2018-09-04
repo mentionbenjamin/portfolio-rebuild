@@ -16,6 +16,7 @@ const Home = () => (
                   caption={EventfullData.caption}
                   details={EventfullData.details}
               description={EventfullData.description}
+                     link={EventfullData.link}
                    footer={EventfullData.footer}
         />
       </div>

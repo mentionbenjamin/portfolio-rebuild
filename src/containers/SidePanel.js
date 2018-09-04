@@ -3,6 +3,7 @@ import Header from '../components/Header.js';
 import Caption from '../components/Caption.js';
 import Details from '../components/Details.js';
 import Description from '../components/Description.js';
+import Link from '../components/Link.js';
 import Footer from '../components/Footer.js';
 
 class SidePanel extends React.Component {
@@ -22,6 +23,7 @@ class SidePanel extends React.Component {
         <Caption     text={this.props.caption}     />
         <Details     text={this.props.details}     />
         <Description text={this.props.description} />
+        <Link        text={this.props.link}        />
         <Footer      text={this.props.footer}      />
       </div>
     );

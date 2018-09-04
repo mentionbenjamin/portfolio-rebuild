@@ -16,6 +16,7 @@ const Home = () => (
                   caption={TrackYoselfData.caption}
                   details={TrackYoselfData.details}
               description={TrackYoselfData.description}
+                     link={TrackYoselfData.link}
                    footer={TrackYoselfData.footer}
         />
       </div>
