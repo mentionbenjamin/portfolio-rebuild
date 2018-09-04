@@ -1,20 +1,11 @@
-.project-preview-container {
-  background-color: antiquewhite;
-  z-index: 1000;
-}
 .project-preview-parent {
-  position: absolute;
-right: 0;
-width: 300px;
+
 }
-
-
-
 .chapeltown-preview,
 .frogging-preview,
 .plumtree-preview,
 .eventfull-preview,
 .trackyoself-preview {
-  width: 200px;
+  max-width: 400px;
   border: 1px solid purple;
 }

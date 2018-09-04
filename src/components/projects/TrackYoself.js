@@ -9,7 +9,7 @@ const TrackYoself = () => (
     <div className="side-panel-container">
       <SidePanel
              header="
-                    TrackYoself
+                    Track Yo'self
                     "
             caption="
                     Spending tracker web application with an animated UI.

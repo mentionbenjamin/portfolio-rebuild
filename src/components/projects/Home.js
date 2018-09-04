@@ -3,7 +3,10 @@ import ProjectPreviewNav from "../ProjectPreviewNav";
 import SidePanel from "../../containers/SidePanel";
 
 const Home = () => (
-  <div>
+
+  <div className="page-container">
+
+    <div className="layout">
 
         <div className="side-panel-container">
           <SidePanel
@@ -21,9 +24,16 @@ const Home = () => (
           />
         </div>
 
-        <ProjectPreviewNav />
+        <div class="project-preview-container">
+          <ProjectPreviewNav />
+        </div>
 
-      </div>
+    </div>
+
+  </div>
+
+
+
 
 );
 

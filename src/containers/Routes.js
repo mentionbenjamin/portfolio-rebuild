@@ -17,18 +17,18 @@ class Routes extends React.Component {
 
   render() {
     return (
-        <div>
-          <Router>
-            <React.Fragment>
-              <Route exact path="/" component={Home} />
-              <Route path="/eventfull" component={Eventfull} />
-              <Route path="/plumtree" component={Plumtree} />
-              <Route path="/trackyoself" component={TrackYoself} />
-              <Route path="/frogging" component={Frogging} />
-              <Route path="/chapeltown" component={Chapeltown} />
-            </React.Fragment>
-          </Router>
-        </div>
+      <div>
+        <Router>
+          <React.Fragment>
+            <Route exact path="/"      component={Home}        />
+            <Route path="/eventfull"   component={Eventfull}   />
+            <Route path="/plumtree"    component={Plumtree}    />
+            <Route path="/trackyoself" component={TrackYoself} />
+            <Route path="/frogging"    component={Frogging}    />
+            <Route path="/chapeltown"  component={Chapeltown}  />
+          </React.Fragment>
+        </Router>
+      </div>
     );
   }
 }
