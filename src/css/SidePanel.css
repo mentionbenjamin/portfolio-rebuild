@@ -27,6 +27,13 @@
   margin-top: -0.8em;
   opacity: 0.6;
 }
+.side-panel-details {
+  font-size: 0.75em;
+  margin: 4.5em 0;
+  font-family: MaisonNeueLight;
+  color: #222222;
+  line-height: 1.7em;
+}
 .side-panel-description {
   font-size: 0.75em;
   margin: 4.5em 0;
@@ -45,6 +52,7 @@
   font-size: 1em;
   padding: 0 3.2em;
   flex: 1;
+  min-width: 23em;
   max-width: 23em;
   min-height: 100vh;
 }
@@ -56,9 +64,22 @@
 .project-preview-container {
   flex: 2;
 }
+
+.layout {
+  display: flex;
+}
 /* Responsive: */
-@media only screen and (min-width: 640px) {
+/* @media only screen and (min-width: 640px) {
   .layout {
     display: flex;
+  }
+} */
+
+@media screen and (max-width: 750px) {
+  /* body > h1 { font-size: 3rem; } */
+  layout {
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
   }
 }

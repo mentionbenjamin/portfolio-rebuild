@@ -1,11 +1,49 @@
-.project-preview-parent {
-
-}
+/* .project-preview-parent {
+  display: flex;
+} */
 .chapeltown-preview,
 .frogging-preview,
 .plumtree-preview,
 .eventfull-preview,
 .trackyoself-preview {
-  max-width: 400px;
-  border: 1px solid purple;
+}
+.project-preview-parent > img {
+}
+
+
+
+.project-preview-parent {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.article {
+  margin: 1rem;
+  /* -ms-flex: 1 0 0px; */
+  flex: 1;
+  /* max-width: 300px; */
+  /* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
+}
+.article.breaking {
+  -ms-flex-grow: 1;
+  flex: 1;
+  /* shortcut for "flex-grow: 2" */
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  flex: 1;
+
+  border: 5px solid purple;
+}
+
+@media screen and (max-width: 1400px) {
+  /* body > h1 { font-size: 3rem; } */
+  .project-preview-parent {
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+  }
 }

@@ -24,7 +24,7 @@ const Home = () => (
           />
         </div>
 
-        <div class="project-preview-container">
+        <div className="project-preview-container">
           <ProjectPreviewNav />
         </div>
 
