@@ -1,40 +1,33 @@
 import React from "react";
 import ProjectPreviewNav from "../ProjectPreviewNav";
 import SidePanel from "../../containers/SidePanel";
+import PlumtreeData from '../data/PlumtreeData';
 
-const Plumtree = () => (
-  <div>
 
-    <div className="side-panel-container">
-      <SidePanel
-             header="
-                    Plumtree
-                    "
-            caption="
-                    Personal inventory app to track stock, can categorise, search, move to sold and much more. Collaboration with Gary Muir
-                    "
-        description="
-                    Time-frame: 6 days
-                    Environment: CodeClan Bootcamp
-                    Tools: Java, Hibernate, HTML5, CSS3
-                    Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
-                    appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
-                    vidisse qui aut irure transferrem, aliquip e duis iis aliqua mandaremus
-                    excepteur, quo esse relinqueret
-                    <br></br>
-                    <br></br>
-                    Anim pariatur appellat si iis fugiat minim aut
-                    eiusmod, dolor pariatur de singulis. Ex officia cohaerescant, duis consectetur
-                    probant elit litteris. Excepteur minim nescius laboris quo nescius si veniam."
-             footer="
-                    mentionbenjamin
-                    "
-      />
+
+const Home = () => (
+
+  <div className="page-container">
+
+    <div className="layout">
+
+      <div className="side-panel-container">
+        <SidePanel header={PlumtreeData.header}
+                  caption={PlumtreeData.caption}
+                  details={PlumtreeData.details}
+              description={PlumtreeData.description}
+                   footer={PlumtreeData.footer}
+        />
+      </div>
+
+      <div className="project-preview-container">
+        <ProjectPreviewNav />
+      </div>
+
     </div>
 
-    <ProjectPreviewNav />
-
   </div>
+
 );
 
-export default Plumtree;
+export default Home;

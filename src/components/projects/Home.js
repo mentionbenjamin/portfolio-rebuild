@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectPreviewNav from "../ProjectPreviewNav";
 import SidePanel from "../../containers/SidePanel";
+import HomeData from '../data/HomeData';
+
+
 
 const Home = () => (
 
@@ -8,35 +11,21 @@ const Home = () => (
 
     <div className="layout">
 
-
       <div className="side-panel-container">
-        <SidePanel
-  header=
-  {`The aim is to cool, wow and move people through digital experiences.`}
-  details=
-  {`Time-frame: 2 weeks
-  Environment: University
-  Tools: Adobe Suite, Canon EOS 800D`}
-  description=
-  {`Working between design & development, I find nothing more rewarding than cracking a clients puzzle in an inventive, effective way.
-
-  I am looking for an opportunity in an ambitious, lateral-thinking environment where I can grow and develop. Helping add value by building engaging digital solutions.`}
-  footer=
-  {`mentionbenjamin`}
+        <SidePanel header={HomeData.header}
+                  details={HomeData.details}
+              description={HomeData.description}
+                   footer={HomeData.footer}
         />
       </div>
 
-
-        <div className="project-preview-container">
-          <ProjectPreviewNav />
-        </div>
+      <div className="project-preview-container">
+        <ProjectPreviewNav />
+      </div>
 
     </div>
 
   </div>
-
-
-
 
 );
 

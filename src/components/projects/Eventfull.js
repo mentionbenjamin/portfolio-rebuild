@@ -1,43 +1,33 @@
 import React from "react";
 import ProjectPreviewNav from "../ProjectPreviewNav";
 import SidePanel from "../../containers/SidePanel";
+import EventfullData from '../data/EventfullData';
 
-const Eventfull = () => (
 
-  <div>
 
-    <div className="side-panel-container">
-      <SidePanel
-             header="
-                    Eventfull
-                    "
-            caption="
-                    Single page web application allowing users to search for events by category, date, and location, then view their results on an interactive map.
+const Home = () => (
 
-                    Collaboration with Gregor Cox, James Amos & Iona Macbeth.
-                    "
-        description="
-                    Time-frame: 6 days
-                    Environment: CodeClan Bootcamp
-                    Tools: Javascript, MongoDB, HTML5, CSS3
-                    Tamen imitarentur singulis tamen appellat e aut veniam summis dolor laborum,
-                    appellat exquisitaque, nisi ab quo aute cernantur.Nostrud firmissimum qui
-                    vidisse qui aut irure transferrem, aliquip e duis iis aliqua mandaremus
-                    excepteur, quo esse relinqueret
-                    <br></br>
-                    <br></br>
-                    Anim pariatur appellat si iis fugiat minim aut
-                    eiusmod, dolor pariatur de singulis. Ex officia cohaerescant, duis consectetur
-                    probant elit litteris. Excepteur minim nescius laboris quo nescius si veniam."
-             footer="
-                    mentionbenjamin
-                    "
-      />
+  <div className="page-container">
+
+    <div className="layout">
+
+      <div className="side-panel-container">
+        <SidePanel header={EventfullData.header}
+                  caption={EventfullData.caption}
+                  details={EventfullData.details}
+              description={EventfullData.description}
+                   footer={EventfullData.footer}
+        />
+      </div>
+
+      <div className="project-preview-container">
+        <ProjectPreviewNav />
+      </div>
+
     </div>
 
-    <ProjectPreviewNav />
-
   </div>
+
 );
 
-export default Eventfull;
+export default Home;

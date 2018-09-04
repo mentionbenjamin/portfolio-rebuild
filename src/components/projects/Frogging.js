@@ -1,38 +1,33 @@
 import React from "react";
 import ProjectPreviewNav from "../ProjectPreviewNav";
 import SidePanel from "../../containers/SidePanel";
+import FroggingData from '../data/FroggingData';
 
-const Frogging = () => (
-  <div>
 
-    <div className="side-panel-container">
-      <SidePanel
-header=
-{`Froggin' Around`}
-caption=
-{`Rationalise three graffiti tags as brand or corporate logos.`}
-details=
-{`Time-frame: 2 weeks
-Environment: University
-Tools: Adobe Suite, Canon EOS 800D`}
-description=
-{`As a way to kickstart final year, we had two weeks to interpret three graffiti tags as brand or corporate logos—here is part one of three. Due to the experimental nature of the brief, the aim was to have a bit of fun whilst exploring how to get the public involved in idea generation.
 
-The outcome proved to be an enlightening experiment exploring the manipulation of a single character face, introducing me to new ideas for communicating the personality of a brand.
-Inviting passers-by to express themselves through pen to paper proved to be an insightful experiment. In a way, it gave back to the public and humanised the way in which a consumer can connect with a brand.`}
-footer=
-{`mentionbenjamin`}
-      />
+const Home = () => (
+
+  <div className="page-container">
+
+    <div className="layout">
+
+      <div className="side-panel-container">
+        <SidePanel header={FroggingData.header}
+                  caption={FroggingData.caption}
+                  details={FroggingData.details}
+              description={FroggingData.description}
+                   footer={FroggingData.footer}
+        />
+      </div>
+
+      <div className="project-preview-container">
+        <ProjectPreviewNav />
+      </div>
+
     </div>
 
-    {/* <ImageScroller imageUrls={['', '']}/> */}
-
-
-    <ProjectPreviewNav />
-
   </div>
+
 );
 
-
-
-export default Frogging;
+export default Home;
