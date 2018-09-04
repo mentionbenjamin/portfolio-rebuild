@@ -29,7 +29,7 @@
 }
 .side-panel-details {
   font-size: 0.75em;
-  margin: 4.5em 0;
+  margin: 3.5em 0 3.3em 0;
   font-family: MaisonNeueLight;
   color: #222222;
   line-height: 1.7em;
@@ -37,12 +37,19 @@
 .side-panel-details p {
   margin-top: -14px;
 }
+.details-bold {
+  font-family: MaisonNeueBold;
+  letter-spacing: 0.015em;
+}
 .side-panel-description {
   font-size: 0.75em;
-  margin: 4.5em 0;
+  margin: 3.3em 0;
   font-family: MaisonNeueLight;
   color: #222222;
   line-height: 1.7em;
+}
+.caption {
+  background-color: salmon;
 }
 
 
