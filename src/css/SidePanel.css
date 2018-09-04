@@ -45,6 +45,16 @@
   color: #222222;
   line-height: 1.7em;
 }
+.side-panel-link {
+  font-size: 0.75em;
+  font-family: MaisonNeueLight;
+  text-decoration: none;
+}
+.side-panel-link a {
+  text-decoration: none;
+  color: #222222;
+}
+.link-colour-bg,
 .caption {
   padding: 0.15em;
   background: rgb(198,255,221);

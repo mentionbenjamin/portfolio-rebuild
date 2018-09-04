@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Caption = (props) => {
+const Header = (props) => {
   return (
     <div className="side-panel-link">
-      {props.text}
+        {props.text}
     </div>
   );
 }
 
-export default Caption;
+export default Header;
