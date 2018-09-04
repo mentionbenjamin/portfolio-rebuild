@@ -7,31 +7,41 @@ const ProjectPreviewNav = () => (
     {/* <Link to="/">Home</Link> */}
     <article>
       <Link to="/frogging">
-        <img className="frogging-preview" src={require('../images/frogging/squiggle-1.jpg')} />
+        <img className="frogging-preview"
+                   src={require('../images/frogging/squiggle-1.jpg')}
+                   alt="frogging" />
       </Link>
     </article>
 
     <article>
       <Link to="/chapeltown">
-        <img className="chapeltown-preview" src={require('../images/chapeltown/BothModels.jpg')} />
+        <img className="chapeltown-preview"
+                   src={require('../images/chapeltown/BothModels.jpg')}
+                   alt="chapeltown" />
       </Link>
     </article>
 
     <article>
       <Link to="/plumtree">
-        <img className="plumtree-preview" src={require('../images/plumtree/plumtree.jpg')} />
+        <img className="plumtree-preview"
+                   src={require('../images/plumtree/plumtree.jpg')}
+                   alt="plumtree" />
       </Link>
     </article>
 
     <article>
       <Link to="/eventfull">
-        <img className="eventfull-preview" src={require('../images/eventfull/eventfull.jpg')} />
+        <img className="eventfull-preview"
+                   src={require('../images/eventfull/eventfull.jpg')}
+                   alt="eventfull" />
       </Link>
     </article>
 
     <article>
       <Link to="/trackyoself">
-        <img className="trackyoself-preview" src={require('../images/trackyoself/trackyoself.jpg')} />
+        <img className="trackyoself-preview"
+                   src={require('../images/trackyoself/trackyoself.jpg')}
+                   alt="trackyoself" />
       </Link>
     </article>
 

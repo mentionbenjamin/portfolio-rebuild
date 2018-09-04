@@ -15,13 +15,13 @@
 .project-preview-parent {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .article {
-  margin: 1rem;
   /* -ms-flex: 1 0 0px; */
   flex: 1;
+  margin-bottom: -4px !important;
+
   /* max-width: 300px; */
   /* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
 }
@@ -35,8 +35,6 @@ article img {
   width: 100%;
   height: auto;
   flex: 1;
-
-  border: 5px solid purple;
 }
 
 @media screen and (max-width: 1400px) {

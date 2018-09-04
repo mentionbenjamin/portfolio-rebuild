@@ -58,6 +58,7 @@
   min-width: 23em;
   max-width: 23em;
   min-height: 100vh;
+  position: fixed;
 }
 .page-container {
   min-width: 100vw;
@@ -66,6 +67,8 @@
 }
 .project-preview-container {
   flex: 2;
+  position: absolute;
+  left: 29.3em;
 }
 
 .layout {

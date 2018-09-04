@@ -13,14 +13,24 @@ const Footer = (props) => {
       </div>
 
       <div className="footer-social">
-        <a href="https://www.linkedin.com/in/ben-c-robinson/" target="_blank">
-          <img className="linkedin-icon" src={require('../images/social-icons/linkedin.svg')} />
+        <a href="https://www.linkedin.com/in/ben-c-robinson/"
+         target="_blank"
+            rel="noopener noreferrer">
+          <img className="linkedin-icon"
+                     src={require('../images/social-icons/linkedin.svg')}
+                     alt="linkedin" />
         </a>
-        <a href="https://www.github.com/mentionbenjamin" target="_blank">
-          <img className="github-icon" src={require('../images/social-icons/github.svg')} />
+        <a href="https://www.github.com/mentionbenjamin"
+         target="_blank"
+            rel="noopener noreferrer">
+          <img className="github-icon"
+                     src={require('../images/social-icons/github.svg')}
+                     alt="github" />
         </a>
         <a href="mailto:mentionbenjamin@gmail.com">
-          <img className="mail-icon" src={require('../images/social-icons/mail.svg')} />
+          <img className="mail-icon"
+                     src={require('../images/social-icons/mail.svg')}
+                     alt="mail" />
         </a>
       </div>
 

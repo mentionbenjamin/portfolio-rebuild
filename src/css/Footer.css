@@ -1,6 +1,7 @@
 .side-panel-footer {
   margin: 2.5em 0;
   bottom: 0;
+  position: absolute;
 }
 .footer-mb {
   display: inline-block;
@@ -14,6 +15,8 @@
   right: 0;
   float: right;
   opacity: 0.6;
+  left: 8.5em;
+  position: relative;
 }
 .github-icon {
   padding: 0 1.2em;

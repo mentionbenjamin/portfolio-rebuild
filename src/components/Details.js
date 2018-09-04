@@ -8,10 +8,8 @@ const Details = (props) => {
   // console.log(paragraphs)
 
   // Assigning each paragraph split p tags
-  const paragraphElements = paragraphs.map(paragraph => <p>{paragraph}</p>);
+  const paragraphElements = paragraphs.map(paragraph => <p key={paragraph.id}>{paragraph}</p>);
   // console.log("paragraphElements", paragraphElements)
-
-
 
 
   return (
