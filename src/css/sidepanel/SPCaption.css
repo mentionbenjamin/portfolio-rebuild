@@ -9,9 +9,10 @@
 .caption {
   line-height: 0.7em;
   padding: 0.2em 0.2em;
-  color: #fff;
-  background: #d21a83;
+  color: #f5f5f5;
+  background: #212121;
   -webkit-box-decoration-break: clone;
+  /* background: #d21a83; */
   /* background: rgb(198,255,221);
   background: linear-gradient(45deg,
               rgba(198,255,221,1) 0%,

@@ -17,3 +17,8 @@
     font-family: MaisonNeueLightItalic;
     src: url(../fonts/Maison_Neue_Light_Italic.otf);
 }
+
+@font-face {
+    font-family: MaisonNeueBoldItalic;
+    src: url(../fonts/Maison_Neue_Bold_Italic.otf);
+}

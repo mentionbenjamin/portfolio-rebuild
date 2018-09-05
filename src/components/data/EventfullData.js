@@ -6,13 +6,15 @@ const EventfullData = {
   name: 'Eventfull',
 
   header: (
-    <h1>Eventfull</h1>),
+    <h1>Event<span className="full">full</span></h1>),
 
   caption: (
     <h3>
-      Single page web application allowing users to search for events by category, date, and location, then view their results on an interactive map.
-      <br/>
-      Collaboration with Gregor Cox, James Amos & Iona Macbeth.
+      <span className="caption">
+        Single page web application allowing users to search for events by category, date, and location, then view their results on an interactive map.
+        <br/>
+        Collaboration with Gregor Cox, James Amos & Iona Macbeth.
+      </span>
     </h3>),
 
   details: (

@@ -10,9 +10,11 @@ const PlumtreeData = {
 
   caption: (
     <h3>
-      Personal inventory app to track stock, can categorise, search, move to sold and much more.
-      <br/>
-      Collaboration with Gary Muir.
+      <span className="caption">
+        Personal inventory app to track stock, can categorise, search, move to sold and much more.
+        <br/>
+        Collaboration with Gary Muir.
+      </span>
     </h3>),
 
   details: (

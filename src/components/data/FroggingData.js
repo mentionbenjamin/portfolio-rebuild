@@ -10,7 +10,9 @@ const EventfullData = {
 
   caption: (
     <h3>
-      Rationalising a graffiti tag as a brand or corporate logo.
+      <span className="caption">
+        Rationalising a graffiti tag as a brand or corporate logo.
+      </span>
     </h3>),
 
   details: (

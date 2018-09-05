@@ -10,7 +10,9 @@ const TrackYoselfData = {
 
   caption: (
     <h3>
-      Spending tracker web application with an animated UI.
+      <span className="caption">
+        Spending tracker web application with an animated UI.
+      </span>
     </h3>),
 
   details: (
