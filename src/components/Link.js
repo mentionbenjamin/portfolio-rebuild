@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/sidepanel/SPLink.css';
+
 
 const Header = (props) => {
   return (

@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// projects
-import Home from "../components/projects/Home.js";
-import Eventfull from "../components/projects/Eventfull.js";
-import Plumtree from "../components/projects/Plumtree.js";
-import TrackYoself from "../components/projects/TrackYoself.js";
-import Frogging from "../components/projects/Frogging.js";
-import Chapeltown from "../components/projects/Chapeltown.js";
+// routes
+import Home from "../components/routes/Home.js";
+import Eventfull from "../components/routes/Eventfull.js";
+import Plumtree from "../components/routes/Plumtree.js";
+import TrackYoself from "../components/routes/TrackYoself.js";
+import Frogging from "../components/routes/Frogging.js";
+import Chapeltown from "../components/routes/Chapeltown.js";
 
 class Routes extends React.Component {
   constructor(props) {

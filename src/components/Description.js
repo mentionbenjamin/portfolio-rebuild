@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/sidepanel/SPDescription.css';
+
 
 const Description = (props) => {
 

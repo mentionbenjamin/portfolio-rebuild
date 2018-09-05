@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/sidepanel/SPHeader.css';
+
 
 const Header = (props) => {
   return (

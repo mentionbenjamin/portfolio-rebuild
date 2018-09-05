@@ -1,0 +1,24 @@
+.chapeltown-preview,
+.frogging-preview,
+.plumtree-preview,
+.eventfull-preview,
+.trackyoself-preview {
+}
+.project-preview-parent {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.project-preview-parent > div {
+}
+.project-preview-parent > div > img {
+  width: 295px;
+  min-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .project-preview-parent {
+    display: block;
+  }
+  .project-preview-parent > div > img {
+  	max-width: 100%;
+  }
+}
