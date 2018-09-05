@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const PlumtreeData = {
   name: 'Plumtree',
 
-  header: (<h1>Plumtree</h1>),
+  header: (
+    <h1>Plumtree</h1>),
 
   caption: (
     <h3>

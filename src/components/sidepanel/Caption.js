@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/sidepanel/SPCaption.css';
+import '../../css/sidepanel/SPCaption.css';
 
 
 const Caption = (props) => {

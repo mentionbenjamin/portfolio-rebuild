@@ -16,8 +16,8 @@
 }
 
 .project-preview-container {
-  flex: 2;
-  position: absolute;
+  /* flex: 2;
+  position: absolute; */
   margin-left: 29.3em;
 }
 
@@ -30,11 +30,11 @@
     display: flex;
   }
 } */
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   /* body > h1 { font-size: 3rem; } */
-  layout {
+  /* layout {
     -ms-flex-direction: column;
     -webkit-box-orient: vertical;
     flex-direction: column;
-  }
-}
+  } */
+/* } */

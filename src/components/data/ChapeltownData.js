@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 const ChapeltownData = {
   name: 'Home',
 
-  header: (<h1>Chapeltown Arts Festival</h1>),
+  header: (
+    <h1>Chapeltown Arts Festival</h1>),
 
   caption: (
     <h3>

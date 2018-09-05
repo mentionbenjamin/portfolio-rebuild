@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/sidepanel/SPDetails.css';
+import '../../css/sidepanel/SPDetails.css';
 
 
 const Details = (props) => {

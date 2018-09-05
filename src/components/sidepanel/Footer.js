@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/sidepanel/SPFooter.css';
+import '../../css/sidepanel/SPFooter.css';
 
 
 
@@ -17,19 +17,19 @@ const Footer = (props) => {
          target="_blank"
             rel="noopener noreferrer">
           <img className="linkedin-icon"
-                     src={require('../images/social-icons/linkedin.svg')}
+                     src={require('../../images/social-icons/linkedin.svg')}
                      alt="linkedin" />
         </a>
         <a href="https://www.github.com/mentionbenjamin"
          target="_blank"
             rel="noopener noreferrer">
           <img className="github-icon"
-                     src={require('../images/social-icons/github.svg')}
+                     src={require('../../images/social-icons/github.svg')}
                      alt="github" />
         </a>
         <a href="mailto:mentionbenjamin@gmail.com">
           <img className="mail-icon"
-                     src={require('../images/social-icons/mail.svg')}
+                     src={require('../../images/social-icons/mail.svg')}
                      alt="mail" />
         </a>
       </div>

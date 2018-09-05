@@ -1,11 +1,11 @@
 import React from 'react';
-import '../css/sidepanel/SPLink.css';
+import '../../css/sidepanel/SPHeader.css';
 
 
 const Header = (props) => {
   return (
-    <div className="side-panel-link">
-        {props.text}
+    <div className="side-panel-header">
+      {props.text}
     </div>
   );
 }

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const EventfullData = {
   name: 'Eventfull',
 
-  header: (<h1>Eventfull</h1>),
+  header: (
+    <h1>Eventfull</h1>),
 
   caption: (
     <h3>

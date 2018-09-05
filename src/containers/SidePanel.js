@@ -1,11 +1,11 @@
 import React from 'react';
 // components
-import Header from '../components/Header.js';
-import Caption from '../components/Caption.js';
-import Details from '../components/Details.js';
-import Description from '../components/Description.js';
-import Link from '../components/Link.js';
-import Footer from '../components/Footer.js';
+import Header from '../components/sidepanel/Header.js';
+import Caption from '../components/sidepanel/Caption.js';
+import Details from '../components/sidepanel/Details.js';
+import Description from '../components/sidepanel/Description.js';
+import Link from '../components/sidepanel/Link.js';
+import Footer from '../components/sidepanel/Footer.js';
 
 class SidePanel extends React.Component {
   constructor(props) {

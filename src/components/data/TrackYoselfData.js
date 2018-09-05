@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const TrackYoselfData = {
   name: 'TrackYoself',
 
-  header: (<h1>Track Yo'self</h1>),
+  header: (
+    <h1>Track Yo'self</h1>),
 
   caption: (
     <h3>

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const EventfullData = {
   name: 'Frogging',
 
-  header: (<h1>Froggin' Around</h1>),
+  header: (
+    <h1>Froggin' Around</h1>),
 
   caption: (
     <h3>

@@ -18,7 +18,7 @@ const Home = () => (
                    footer={HomeData.footer}
         />
       </div>
-
+      
       <div className="project-preview-container">
         <ProjectPreviewNav />
       </div>

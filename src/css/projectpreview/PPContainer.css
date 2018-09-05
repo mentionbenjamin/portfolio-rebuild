@@ -9,22 +9,19 @@
   display: grid;
   grid-template-columns: auto auto;
 }
-
 .project-preview-parent > div {
 }
-
 .project-preview-parent > div > img {
-  width: 295px;
+  width: 10em;
   min-width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 1100px) {
   .project-preview-parent {
     display: block;
   }
-
   .project-preview-parent > div > img {
   	max-width: 100%;
   }
 }
+ 

@@ -1,16 +1,20 @@
 .side-panel-caption {
   font-size: 0.75em;
-  font-family: MaisonNeueMediumItalic;
-  line-height: 1.5em;
+  font-family: MaisonNeueLightItalic;
+  line-height: 1.58em;
   letter-spacing: 0.03em;
   margin-top: -0.9em;
 }
 
 .caption {
-  padding: 0.15em;
-  background: rgb(198,255,221);
+  line-height: 0.7em;
+  padding: 0.2em 0.2em;
+  color: #fff;
+  background: #d21a83;
+  -webkit-box-decoration-break: clone;
+  /* background: rgb(198,255,221);
   background: linear-gradient(45deg,
               rgba(198,255,221,1) 0%,
               rgba(251,215,134,1) 50%,
-              rgba(247,121,125,1) 100%);
+              rgba(247,121,125,1) 100%); */
 }
