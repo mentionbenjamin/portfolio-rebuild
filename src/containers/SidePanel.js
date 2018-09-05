@@ -1,4 +1,5 @@
 import React from 'react';
+// components
 import Header from '../components/Header.js';
 import Caption from '../components/Caption.js';
 import Details from '../components/Details.js';
