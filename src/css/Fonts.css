@@ -2,10 +2,12 @@
     font-family: MaisonNeueBold;
     src: url(../fonts/Maison_Neue_Bold.otf);
 }
+
 @font-face {
     font-family: MaisonNeueLight;
     src: url(../fonts/Maison_Neue_Light.otf);
 }
+
 @font-face {
     font-family: MaisonNeueMediumItalic;
     src: url(../fonts/Maison_Neue_Medium_Italic.otf);

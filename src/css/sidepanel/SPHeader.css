@@ -5,9 +5,11 @@
   font-size: 0.9em;
   line-height: 2.7em;
 }
+
 .header-text {
   padding-bottom: 1.32em;
 }
+
 .cool {
   padding: 0.1em;
   background: rgb(198,255,221);
@@ -16,6 +18,7 @@
               rgba(251,215,134,1) 50%,
               rgba(247,121,125,1) 100%);
 }
+
 .cool a {
   text-decoration: none;
   color: #222222;

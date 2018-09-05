@@ -5,9 +5,11 @@
   color: #222222;
   line-height: 1.7em;
 }
+
 .side-panel-details p {
   margin-top: -14px;
 }
+
 .details-bold {
   font-family: MaisonNeueBold;
   letter-spacing: 0.015em;

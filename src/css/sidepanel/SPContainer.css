@@ -8,11 +8,13 @@
   min-height: 100vh;
   position: fixed;
 }
+
 .page-container {
   min-width: 100vw;
   margin-right: auto;
   margin-left: auto;
 }
+
 .project-preview-container {
   flex: 2;
   position: absolute;
@@ -28,7 +30,6 @@
     display: flex;
   }
 } */
-
 @media screen and (max-width: 750px) {
   /* body > h1 { font-size: 3rem; } */
   layout {
