@@ -35,7 +35,18 @@ const ChapeltownData = {
   footer: (
     <h4>
       <Link className="mb-footer-link" to="/">mentionbenjamin</Link>
-    </h4>)
+    </h4>),
+
+  imageUrls: [
+    require('../../images/chapeltown/ProcessGif.gif'),
+    require('../../images/chapeltown/modeltests.jpg'),
+    require('../../images/chapeltown/leafletgif.gif'),
+    require('../../images/chapeltown/leafletmashup.jpg'),
+    require('../../images/chapeltown/BoomboxConstruction.gif'),
+    require('../../images/chapeltown/PencilConstruction.gif'),
+    require('../../images/chapeltown/BothModels.jpg')
+    // require('../../images/chapeltown/Leaflet-Model-Swap.gif'),
+  ]
 }
 
 export default ChapeltownData;

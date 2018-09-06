@@ -1,9 +1,10 @@
 import React from "react";
-import ProjectPreviewNav from "../ProjectPreviewNav";
+import ImageScroller from "../ImageScroller";
 import SidePanel from "../../containers/SidePanel";
 import EventfullData from '../data/EventfullData';
 
 
+console.log(EventfullData.imageUrls)
 
 const Home = () => (
 
@@ -22,7 +23,7 @@ const Home = () => (
       </div>
 
       <div className="project-preview-container">
-        <ProjectPreviewNav />
+        <ImageScroller urls={EventfullData.imageUrls} />
       </div>
 
     </div>

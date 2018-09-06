@@ -13,16 +13,17 @@
 .cool {
   padding: 0.1em;
   margin-right: 0.2em;
-  background: rgb(198,255,221);
+  background: #212121;
+  /* background: rgb(198,255,221);
   background: linear-gradient(45deg,
               rgba(198,255,221,1) 0%,
               rgba(251,215,134,1) 50%,
-              rgba(247,121,125,1) 100%);
+              rgba(247,121,125,1) 100%); */
 }
 
 .cool a {
   text-decoration: none;
-  color: #222222;
+  color: #f5f5f5;
 }
 
 .full {

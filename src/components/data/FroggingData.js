@@ -32,10 +32,24 @@ const EventfullData = {
       Inviting passers-by to express themselves through pen to paper proved to be an insightful experiment. In a way, it gave back to the public and humanised the way in which a consumer can connect with a brand.
     </h3>),
 
+  link: null,
+
   footer: (
     <h4>
       <Link className="mb-footer-link" to="/">mentionbenjamin</Link>
-    </h4>)
+    </h4>),
+
+  imageUrls: [
+    require('../../images/frogging/alien-tags.jpg'),
+    require('../../images/frogging/tag-practice.jpg'),
+    require('../../images/frogging/sketches.jpg'),
+    require('../../images/frogging/squiggle-2.jpg'),
+    // require('../../images/frogging/squiggle-3.jpg'),
+    require('../../images/frogging/squiggle-1.jpg'),
+    require('../../images/frogging/squiggle-4.jpg'),
+    require('../../images/frogging/frogs.gif'),
+    require('../../images/frogging/wallpaper.png')
+  ]
 }
 
 export default EventfullData;

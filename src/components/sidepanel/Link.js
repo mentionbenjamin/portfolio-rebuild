@@ -2,7 +2,7 @@ import React from 'react';
 import '../../css/sidepanel/SPLink.css';
 
 
-const Header = (props) => {
+const Link = (props) => {
   return (
     <div className="side-panel-link">
       {props.text}
@@ -10,4 +10,4 @@ const Header = (props) => {
   );
 }
 
-export default Header;
+export default Link;

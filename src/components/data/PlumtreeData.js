@@ -36,11 +36,11 @@ const PlumtreeData = {
   link: (
     <h3>
       <span className="link-colour-bg">
-              <a href="http://google.co.uk"
-                  rel="noopener noreferrer"
-               target="_blank">Visit</a>
+        <a href="http://google.co.uk" rel="noopener noreferrer" target="_blank">
+          Visit
+        </a>
        </span>
-    </h3>),
+     </h3>),
 
   footer: (
     <h4>

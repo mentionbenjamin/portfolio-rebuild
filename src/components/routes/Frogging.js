@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectPreviewNav from "../ProjectPreviewNav";
+import ImageScroller from "../ImageScroller";
 import SidePanel from "../../containers/SidePanel";
 import FroggingData from '../data/FroggingData';
 
@@ -20,9 +20,9 @@ const Home = () => (
         />
       </div>
 
-      <div className="project-preview-container">
-        <ProjectPreviewNav />
-      </div>
+      {/* <div className="project-preview-container"> */}
+        <ImageScroller urls={FroggingData.imageUrls} />
+      {/* </div> */}
 
     </div>
 

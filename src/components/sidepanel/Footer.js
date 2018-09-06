@@ -9,7 +9,6 @@ const Footer = (props) => {
 
       <div className="footer-mb">
         {props.text}
-        {/* <Link to="/">mentionbenjamin</Link> */}
       </div>
 
       <div className="footer-social">
